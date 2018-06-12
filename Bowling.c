@@ -37,9 +37,9 @@ int main()
  }
 
 }
-}
-}
-}
-}
-}
+  printf("%c | %c |", frame[i][0], frame[i][1]);
+ printf("\n");
+ for (int i = 1; i < 10; i++)
+  printf("%d   ||", score[i]);
+ return 0;
 }
